@@ -35,7 +35,7 @@
 
     // Toggle.
     $(
-        '<div id="navToggle">' +
+        '<div id="navToggle" style="margin-top: 15px;">' +
         '<a href="#navPanel" class="toggle"></a>' +
         '</div>'
     )
@@ -43,7 +43,7 @@
 
     // Panel.
     $(
-        '<div id="navPanel">' +
+        '<div id="navPanel" style="font-size: 35px!important;">' +
         '<nav>' +
         $('#nav').navList() +
         '</nav>' +
